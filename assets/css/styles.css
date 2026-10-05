@@ -1,8 +1,38 @@
-h1 {
-    font-family: 'Macondo', sans-serif;
+:root {
+    --primary-font: 'Inter', sans-serif;
+    --secondary-font: 'Macondo', cursive;
+    --primary-color: #4a2620; /*Dark Brown*/
+    --secondary-color: #aa9581;
+    --highlight-color: #416a8e;
+    --light-highlight-color:#7a9fc2;
 
 }
-body {
-    font-family: 'Inter', sans-serif;
 
+h1,
+h2, 
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+
+body {
+    font-family: var(--primary-font);
+
+}
+.sub-heading-color {
+    color: var(--highlight-color);
+
+}
+
+/* Grid visualisation CSS for Testing */ 
+.container, 
+.row {
+    border:2px solid black;
+
+}
+
+.col-12 { 
+    border: 2px solid white; 
+    background-color: lightgray;
 }
