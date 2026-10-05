@@ -25,7 +25,8 @@ body {
 
 }
 
-/* Grid visualisation CSS for Testing */ 
+
+/* Grid visualisation CSS for Testing  
 .container, 
 .row {
     border:2px solid black;
@@ -36,3 +37,6 @@ body {
     border: 2px solid white; 
     background-color: lightgray;
 }
+*/
+
+
