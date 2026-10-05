@@ -13,6 +13,7 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform:uppercase;
 }
 
 
@@ -25,6 +26,12 @@ body {
 
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
 /* Navbar Styles */
 
 #navbar {
@@ -32,6 +39,10 @@ body {
 
 #navbar .logo {width:30px}
 
+/* Header Styles */
+#header .lead{
+    font-family: var(--secondary-font);
+}
 /* Grid visualisation CSS for Testing  
 .container, 
 .row {
