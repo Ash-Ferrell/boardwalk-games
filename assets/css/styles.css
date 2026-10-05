@@ -25,6 +25,12 @@ body {
 
 }
 
+/* Navbar Styles */
+
+#navbar {
+    background-color: var(--primary-color);}
+
+#navbar .logo {width:30px}
 
 /* Grid visualisation CSS for Testing  
 .container, 
