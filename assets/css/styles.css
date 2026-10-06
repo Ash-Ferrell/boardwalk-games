@@ -65,6 +65,13 @@ body {
         margin-bottom: 1.5rem; 
     }
     
+/* Games Library */
+
+#new-games-section .card,
+#fav-games .card {
+    border: none; 
+}
+
 /* Grid visualisation CSS for Testing  
 .container, 
 .row {
