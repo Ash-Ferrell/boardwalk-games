@@ -183,14 +183,51 @@
 
      <!-- Footer / Contact Section -->
       <!-- Classes ensure the footer sticks to the bottom of the page -->
-        <footer class="mt-auto">
+        <footer class="mt-auto" id="contact">
            <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12">Contact Section Heading</div>
                 <!-- contact information -->
                 <div class="col-12 col-md-6 col-xl-4">Contact info & Social Links </div> 
                 <!-- opening times -->
-                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+                <div class="col-12 col-md-6 col-xl-4 sub-heading-color"><h3>Opening times</h3></div>
+                
+                <!-- Start of Table -->
+                 <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">Day</th>
+                    <th scope="col">Open</th>
+                    <th scope="col">Close</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">Mon</th>
+                    <td colspan="2">Closed</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Tue - Thur</th>
+                    <td>11am</td>
+                    <td>11pm</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Fri-Sat</th>
+                    <td>11am</td>
+                    <td>12am</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">Sun</th>
+                    <td>12pm</td>
+                    <td>7pm</td>
+                    </tr>
+                </tbody>
+                </table>
+
+
+
+                <!-- End of table-->
             </div>
            </div>
         </footer>
