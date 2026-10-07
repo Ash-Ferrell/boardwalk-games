@@ -241,40 +241,40 @@
                      <!-- Booking inquiry form section -->
                  <form action="success.html" method="GET">
                     <div class="row justify-content-end">
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="name" class="form-label">Full name</label>
                             <input class="form-control" id="name" name="name" type="text" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="phone" class="form-label">Phone number</label>
                             <input class="form-control" id="phone" name="phone" type="number" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                        <div class="col-12 col-lg-4 mb-3">
                             <label for="email" class="form-label">Email address</label>
                             <input class="form-control" id="email" name="email" type="email" required>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="event-type" class="form-label">Select Game</label>
-                            <select id="event-type" class="form-select" name="event-type">
+                        <div class="col-12 col-lg-8 mb-3">
+                            <label for="game" class="form-label">Select Game</label>
+                            <select id="game" class="form-select" name="game">
                                 <option selected>Select Game</option>
                                 <option value="regular-play">Galaxy Pioneers</option>
                                 <option value="dnd">Mystic Woods</option>
-                                <option value="retro-night">Captain's Gambit</option>
-                                <option value="retro-night">Critter Quest</option>
-                                <option value="retro-night">Setters of Catan</option>
-                                <option value="retro-night">Monopoly</option>
-                                <option value="retro-night">Exploding Kittens</option>
-                                <option value="retro-night">Cluedo</option>
+                                <option value="Captain's Gambit">Captain's Gambit</option>
+                                <option value="Critter Quest">Critter Quest</option>
+                                <option value="Settlers of Catan">Settlers of Catan</option>
+                                <option value="Monopoly">Monopoly</option>
+                                <option value="Exploding Kittens">Exploding Kittens</option>
+                                <option value="Cluedo">Cluedo</option>
                             </select>
                         </div>
-                        <div>
-                             <div class="col-12 col-lg-6 mb-3">
-                            <label for="date" class="form-label">Requested date</label>
-                            <input class="form-control" id="date" name="date" type="date" required>
-                        </div>
+                            <div class="col-12 col-lg-4 mb-3">
+                                <label for="date" class="form-label">Requested date</label>
+                                <input class="form-control" id="date" name="date" type="date" required>
+                            </div>                             
                     </div>
-
-                    <button type="submit" class="btn custom-button-outline ">Submit</button>
+                    <div class="row justify-content-end">
+                    <button type="submit" class=" m-3 col-4 col-md-3 col-lg-2 col-xl-2 btn custom-button-outline">Submit</button>
+                    </div>
                 </form>
 
 
