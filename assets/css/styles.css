@@ -101,7 +101,7 @@ body {
     
 }
 
-#events .table-dark * {
+#events .table * {
     background-color: transparent;
     color:black;
 }
