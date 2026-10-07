@@ -61,6 +61,7 @@ body {
     border: 3px solid var(--highlight-color);
     padding: 7px 25px;
     color: var(--highlight-color);
+    text-align:center;
 }
 
 .custom-button-outline:hover {
